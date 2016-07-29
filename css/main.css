@@ -378,4 +378,101 @@ footer p {
 	color: #999;	margin-top: 50px;
 }
 
+/* =============MEDIA QUERIES MOFO!============= */
+
+@media (max-width: 575px){
+	nav ul {
+		float: none;
+		text-align: center;
+	}
+	.customers h2 {
+		font-size: 20px;
+		padding: 20px;
+	}
+	.customers p {
+		font-size: 14px;
+		padding: 20px;
+	}
+	.hr1 {
+		padding-top: 140px;
+	}
+	.products {
+		padding-left: 15px;
+	}
+	.manifesto h2 {
+		font-size: 20px;
+		padding: 20px;
+	}
+	.offerings .column {
+		padding-left: 40px;
+	}
+	.offerings .column-end {
+		padding-left: 30px;
+}
+	.offerings .column,
+	.offerings .column-end {
+		width: initial;
+		text-align: center;
+		margin: initial;
+	}
+	.rework h2 {
+		font-size: 20px;
+		padding: 20px;
+	}
+	.quotes h3 {
+		font-size: 15px;
+		padding: 20px;
+	}
+	.offerings {
+		padding: 20px;
+	}
+	.offerings h2 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 900px){
+	header {
+		text-align: initial;
+		width: initial;
+		padding: 20px;
+	}
+	header img {
+		display: block;
+		margin: 0 auto;
+	}
+	header h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+	header h5 {
+		font-size: 15px;
+		text-align: center;
+	}
+	section {
+		width: initial;
+	}
+	.badgep {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px){
+	.meet, .arrow-left, .globe {
+		display: none;
+	}
+	.crumple, .arrow-right, .book {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
